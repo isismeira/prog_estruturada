@@ -17,7 +17,8 @@ int main()
     printf("Inicio da contagem regressiva\n");
 
      // Estrutura de repetição while
-    while (contador>=2){
+    while (contador>=2)
+    {
         numero--;
         printf("Contando... %i\n", numero);
         contador--;
